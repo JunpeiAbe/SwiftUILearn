@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		685A7DDE2C8D87A8005D8402 /* CommonTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685A7DDD2C8D87A8005D8402 /* CommonTextField.swift */; };
 		687DFF472C8D7E3C00EA3C89 /* SwiftUILearnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DFF462C8D7E3C00EA3C89 /* SwiftUILearnApp.swift */; };
 		687DFF492C8D7E3C00EA3C89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DFF482C8D7E3C00EA3C89 /* ContentView.swift */; };
 		687DFF4B2C8D7E3E00EA3C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 687DFF4A2C8D7E3E00EA3C89 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		685A7DDD2C8D87A8005D8402 /* CommonTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTextField.swift; sourceTree = "<group>"; };
 		687DFF432C8D7E3C00EA3C89 /* SwiftUILearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		687DFF462C8D7E3C00EA3C89 /* SwiftUILearnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILearnApp.swift; sourceTree = "<group>"; };
 		687DFF482C8D7E3C00EA3C89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,8 +53,9 @@
 		687DFF452C8D7E3C00EA3C89 /* SwiftUILearn */ = {
 			isa = PBXGroup;
 			children = (
-				687DFF462C8D7E3C00EA3C89 /* SwiftUILearnApp.swift */,
+				685A7DDD2C8D87A8005D8402 /* CommonTextField.swift */,
 				687DFF482C8D7E3C00EA3C89 /* ContentView.swift */,
+				687DFF462C8D7E3C00EA3C89 /* SwiftUILearnApp.swift */,
 				687DFF4A2C8D7E3E00EA3C89 /* Assets.xcassets */,
 				687DFF4C2C8D7E3E00EA3C89 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				685A7DDE2C8D87A8005D8402 /* CommonTextField.swift in Sources */,
 				687DFF492C8D7E3C00EA3C89 /* ContentView.swift in Sources */,
 				687DFF472C8D7E3C00EA3C89 /* SwiftUILearnApp.swift in Sources */,
 			);

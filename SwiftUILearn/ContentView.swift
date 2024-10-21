@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  SwiftUILearn
-//
-//  Created by j on 2024/09/08.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -14,11 +7,12 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            CommonTextField()
         }
         .padding()
     }
 }
 
-#Preview {
-    ContentView()
-}
+//#Preview {
+//    ContentView()
+//}
